@@ -4,6 +4,7 @@ DEBUG?=
 OUT_DIR=Generated
 EXTRA_OPS=--banner -1 --log $(OUT_DIR)/kibot.log $(DEBUG)
 
+
 all: erc drc ardu_prog
 
 erc:
